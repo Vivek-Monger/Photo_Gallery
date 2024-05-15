@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100vh;
+    background: linear-gradient(#ffa700, #1a0c05);
+}
+.topic{
+text-align: center;
+}
+
+#mainPhoto{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.smImg{
+    width: 150px;
+    height: 150px;
+    transition: 0.3s;
+}
+.smImg:hover{
+    width: 120px;
+    height: 120px;
+    border: 2px solid white;
+    margin: 3px;
+}
+img{
+    border-radius: 10%;
+    cursor: pointer;
+}
+
